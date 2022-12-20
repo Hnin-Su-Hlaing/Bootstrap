@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="fixed-top bg-white py-3">
+    <div class="container">
+      <nav class="navbar" id="navbar-example2">
+        <a href="#" class="logo text-dark">Yummy<span class="text-danger">.</span></a>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="globalMenuSp">
+          <ul class="nav-menu">
+            <li class="nav-item active"><a href="#sec01" class="nav-link text-secondary">Home</a></li>
+            <li class="nav-item"><a href="#sec02" class="nav-link text-secondary">About</a></li>
+            <li class="nav-item"><a href="#sec05" class="nav-link text-secondary">Menu</a></li>
+            <li class="nav-item"><a href="#sec07" class="nav-link text-secondary">Events</a></li>
+            <li class="nav-item"><a href="#sec08" class="nav-link text-secondary">Chefs</a></li>
+            <li class="nav-item"><a href="#sec10" class="nav-link text-secondary">Gallery</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Drop Down
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item text-secondary" href="#">Drop Down 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-secondary" href="#">
+                    Deep Drop Down <span class="dropdown-arr"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu">
+                    <li>
+                      <a class="dropdown-item text-secondary" href="#">Deep Drop Down 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-secondary" href="#">Deep Drop Down 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-secondary" href="#">Deep Drop Down 3</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-secondary" href="#">Deep Drop Down 4</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-secondary" href="#">Deep Drop Down 5</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item text-secondary" href="#">Drop Down 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-secondary" href="#">Drop Down 3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-secondary" href="#">Drop Down 4</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="#sec11" class="nav-link text-secondary">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 nav-btn">
+          <a href="#" class="table-btn btn bg-danger text-white">Book a Table</a>
+        </div>
+      </nav>
+    </div>
+  </header><!-- header -->
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <div class="main-visual" id="sec01">
+      <div class="container">
+        <div class="row py-5 my-5">
+          <div class="mv-txtblk col-12 col-lg-6 col-md-12 col-sm-12 py-5 my-5 order-2 order-lg-1">
+            <h3 class="text-uppercase">enjoy your health<br>delecious food</h3>
+            <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possint deiquid magnam ab! Numquam placeat, mollitia ducimus tempora libero eum illo odio assumenda enim voluptatum.</p>
+            <div class="mv-btn-blk row">
+              <div class="col-4">
+                <a href="#" class="table-btn btn bg-danger text-white">Book a Table</a>
+              </div>
+              <div class="col-4">
+                <a href="#watch-vd" data-bs-toggle="modal">
+                  <img src="./img/img_vd_play.png" alt="video play icon">
+                  <span class="watch-vd-txt text-secondary">Watch Video</span>
+                </a>
+                <div id="watch-vd" class="modal fade">
+                  <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe id="watch-link" width="853" height="480" src="https://www.youtube.com/embed/S8eUnZHK6ek" title="Mmm😋 Giant Burger And Sushi Recipes || Macro Food Ideas You Need to Try" frameborder="0"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mv-imgblk text-center col-12 col-lg-6 col-md-12 col-sm-12 order-1 order-lg-2">
+            <img src="./img/img_mv.png" alt="main visual">
+          </div>
+        </div>
+      </div>
+    </div><!-- /.main-visual -->
+
+    <div class="aboutus-sec" id="sec02">
+      <div class="container">
+        <span class="about-subttl text-uppercase text-center d-block">About us</span>
+        <h3 class="about-mainttl text-uppercase text-center pb-5">learn more <span>about us</span></h3>
+        <div class="row gy-4">
+          <div class="about-contact-blk col-12 col-lg-7 col-md-12 col-sm-12 me-4">
+            <div class="ph-no-blk">
+              <p class="about-ph-no p-3">Book a Table<br><span>+1 343 232 343 553</span></p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-12 col-sm-12">
+            <div class="about-topblk">
+              <p class="about-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <ul class="about-list">
+                <li><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="fa-solid fa-check-double"></i>Duis aute irure dolor in reprehenderit in voluptate velit</li>
+                <li><i class="fa-solid fa-check-double"></i>Ullamcomodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              </ul>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+            <div class="about-youtube-blk">
+              <a href="https://www.youtube.com/watch?v=Y57T-SLNyDI" data-toggle="lightbox" data-gallery="youtubevideos" class="youtube-img">
+                <img src="./img/img_about02.jpg" class="img-fluid" alt="about us">
+                <div class="vd-play rounded-circle text-center py-3 pe-4 ps-4">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.aboutus-sec -->
+
+    <div class="card-sec" id="sec03">
+      <div class="container">
+        <div class="card-blk row py-5 d-flex">
+          <div class="card red-card col-lg-4 col-md-12 col-sm-12 py-4 h-50">
+            <div class="card-body">
+              <h3 class="text-white display-6">Why Choose<br>Yummy?</h3>
+              <p class="text-white pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+              <div class="text-center pt-3">
+                <a href="#" class="btn btn-danger rounded-pill text-white px-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="white-card col-lg-8 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="card col-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="card-body">
+                  <div class="card-logo rounded-pill text-center pt-3 mt-4">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                  </div>
+                  <h4 class="text-center py-3">Corporis voluptates officia eiusmod</h4>
+                  <p class="text-center">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+              </div>
+              <div class="card col-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="card-body">
+                  <div class="card-logo rounded-pill text-center pt-3 mt-4">
+                    <i class="fa-regular fa-gem"></i>
+                  </div>
+                  <h4 class="text-center py-3">Corporis voluptates officia eiusmod</h4>
+                  <p class="text-center">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+              </div>
+              <div class="card col-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="card-body">
+                  <div class="card-logo rounded-pill text-center pt-3 mt-4">
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h4 class="text-center py-3">Corporis voluptates officia eiusmod</h4>
+                  <p class="text-center">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.card-sec -->
+
+    <div class="status-sec" id="sec04">
+      <div class="container">
+        <div class="status-blk row">
+          <div class="col-lg-3 col-md-6">
+            <h3 class="count-no text-white text-center">232</h3>
+            <p class="text-white text-center">Clients</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="count-no text-white text-center">521</h3>
+            <p class="text-white text-center">Projects</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="count-no text-white text-center">1453</h3>
+            <p class="text-white text-center">Hours Of Support</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="count-no text-white text-center">32</h3>
+            <p class="text-white text-center">Workeers</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.status-sec -->
+
+    <div class="menu-sec" id="sec05">
+      <div class="container">
+        <span class="about-subttl text-uppercase text-center d-block">OUR MENU</span>
+        <h3 class="about-mainttl text-uppercase text-center pb-5">Check Our <span>Yummy Menu</span></h3>
+        <ul class="nav nav-tabs w-50 mx-auto" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#starters">Starters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#breakfast">Breakfast</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#lunch">Lunch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#dinner">Dinner</a>
+          </li>
+        </ul>
+        <div class="tab-content pt-3">
+          <div id="starters" class="container tab-pane active">
+            <p class="menu-subttl text-center">MENU</p>
+            <h3 class="menu-mainttl text-center">Starters</h3>
+            <ul class="menu-list row pt-3">
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item01.png" alt="Magnam Tiste">
+                </div>
+                <h4 class="menu-name text-center">Magnam Tiste</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item02.png" alt="Aut Luia">
+                </div>
+                <h4 class="menu-name text-center">Aut Luia</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item03.png" alt="Est Eligendi">
+                </div>
+                <h4 class="menu-name text-center">Est Eligendi</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item04.png" alt="Eos Luibusdam">
+                </div>
+                <h4 class="menu-name text-center">Eos Luibusdam</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item05.png" alt="Eos Luibusdam">
+                </div>
+                <h4 class="menu-name text-center">Eos Luibusdam</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item06.png" alt="Laboriosam Direva">
+                </div>
+                <h4 class="menu-name text-center">Laboriosam Direva</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+            </ul>
+          </div>
+          <div id="breakfast" class="container tab-pane fade">
+            <p class="menu-subttl text-center">MENU</p>
+            <h3 class="menu-mainttl text-center">Breakfast</h3>
+            <ul class="menu-list row pt-3">
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item01.png" alt="Magnam Tiste">
+                </div>
+                <h4 class="menu-name text-center">Magnam Tiste</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item02.png" alt="Aut Luia">
+                </div>
+                <h4 class="menu-name text-center">Aut Luia</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item03.png" alt="Eos Luibusdam">
+                </div>
+                <h4 class="menu-name text-center">Eos Luibusdam</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item04.png" alt="Eos Luibusdam">
+                </div>
+                <h4 class="menu-name text-center">Eos Luibusdam</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item05.png" alt="Eos Luibusdam">
+                </div>
+                <h4 class="menu-name text-center">Eos Luibusdam</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item06.png" alt="Laboriosam Direva">
+                </div>
+                <h4 class="menu-name text-center">Laboriosam Direva</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+            </ul>
+          </div>
+          <div id="lunch" class="container tab-pane fade">
+            <p class="menu-subttl text-center">MENU</p>
+            <h3 class="menu-mainttl text-center">Lunch</h3>
+            <ul class="menu-list row pt-3">
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item01.png" alt="Magnam Tiste">
+                </div>
+                <h4 class="menu-name text-center">Magnam Tiste</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item02.png" alt="Aut Luia">
+                </div>
+                <h4 class="menu-name text-center">Aut Luia</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item03.png" alt="Est Eligendi">
+                </div>
+                <h4 class="menu-name text-center">Est Eligendi</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item04.png" alt="Eos Luibusdam">
+                </div>
+                <h4 class="menu-name text-center">Eos Luibusdam</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item05.png" alt="Eos Luibusdam">
+                </div>
+                <h4 class="menu-name text-center">Eos Luibusdam</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item06.png" alt="Laboriosam Direva">
+                </div>
+                <h4 class="menu-name text-center">Laboriosam Direva</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+            </ul>
+          </div>
+          <div id="dinner" class="container tab-pane fade">
+            <p class="menu-subttl text-center">MENU</p>
+            <h3 class="menu-mainttl text-center">Dinner</h3>
+            <ul class="menu-list row pt-3">
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item01.png" alt="Magnam Tiste">
+                </div>
+                <h4 class="menu-name text-center">Magnam Tiste</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item02.png" alt="Aut Luia">
+                </div>
+                <h4 class="menu-name text-center">Aut Luia</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item03.png" alt="Est Eligendi">
+                </div>
+                <h4 class="menu-name text-center">Est Eligendi</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item04.png" alt="Eos Luibusdam">
+                </div>
+                <h4 class="menu-name text-center">Eos Luibusdam</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item05.png" alt="Eos Luibusdam">
+                </div>
+                <h4 class="menu-name text-center">Eos Luibusdam</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+              <li class="col-lg-4 col-md-12 col-sm-12">
+                <div class="menu-item">
+                  <img src="./img/img_menu_item06.png" alt="Laboriosam Direva">
+                </div>
+                <h4 class="menu-name text-center">Laboriosam Direva</h4>
+                <p class="menu-desc text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="price text-center">$5.95</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.menu-sec -->
+
+    <div class="testimonial-sec" id="sec06">
+      <div class="container">
+        <span class="about-subttl text-uppercase text-center d-block">TESTIMONIALS</span>
+        <h3 class="about-mainttl text-uppercase text-center pb-5">What Are They <span>Saying About Us</span></h3>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="profile-txtblk col-lg-8 col-md-12 col-sm-12">
+                  <p class="personal-info"><i class="fa-solid fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipistore est me accusantium corrupti beatae totam iste asperiores, nam facilis, minus culpa odio eveniet! Dolores, iure illo!
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                  <h4 class="p-name">John Larson</h4>
+                  <span class="position">Entrepeneur</span>
+                  <ul class="star-icon-list d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="profile">
+                    <img src="./img/img_testi01.jpg" alt="John Larson" class="rounded-circle">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="profile-txtblk col-lg-8 col-md-12">
+                  <p class="personal-info"><i class="fa-solid fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipistore est me accusantium corrupti beatae totam iste asperiores, nam facilis, minus culpa odio eveniet! Dolores, iure illo!
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                  <h4 class="p-name">John Larson</h4>
+                  <span class="position">Entrepeneur</span>
+                  <ul class="star-icon-list d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                  <div class="profile">
+                    <img src="./img/img_testi02.jpg" alt="Saul Goodman" class="rounded-circle">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="profile-txtblk col-lg-8 col-md-12">
+                  <p class="personal-info"><i class="fa-solid fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipistore est me accusantium corrupti beatae totam iste asperiores, nam facilis, minus culpa odio eveniet! Dolores, iure illo!
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                  <h4 class="p-name">Saul Goodman</h4>
+                  <span class="position">Entrepeneur</span>
+                  <ul class="star-icon-list d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                  <div class="profile">
+                    <img src="./img/img_testi03.jpg" alt="Sara Wilsson" class="rounded-circle">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="profile-txtblk col-lg-8 col-md-12">
+                  <p class="personal-info"><i class="fa-solid fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipistore est me accusantium corrupti beatae totam iste asperiores, nam facilis, minus culpa odio eveniet! Dolores, iure illo!
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                  <h4 class="p-name">Sara Wilsson</h4>
+                  <span class="position">Entrepeneur</span>
+                  <ul class="star-icon-list d-flex">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                  <div class="profile">
+                    <img src="./img/img_testi04.jpg" alt="Sara Wilsson" class="rounded-circle">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /testimonial-sec -->
+
+    <div class="event-sec" id="sec07">
+      <span class="about-subttl text-uppercase text-center d-block">EVENTS</span>
+      <h3 class="about-mainttl text-uppercase text-center pb-5">Share<span>Your Moments</span> In Our Restaurant</h3>
+      <ul class="slick-list slick-js row">
+        <li class="first-slide col-lg-12">
+          <div class="img-blk row">
+            <div class="slide-img01 cmm-event-slide col-lg-4 col-md-12">
+              <h3 class="event-ttl text-white">Private Parties</h3>
+              <span class="text-white">$490</span>
+              <p class="event-txt text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex cupiditate velit, in laborum architecto dolorem, voluptas repellat minus q</p>
+            </div>
+            <div class="slide-img02 cmm-event-slide col-lg-4 col-md-12">
+              <h3 class="event-ttl text-white">Private Parties</h3>
+              <span class="text-white">$490</span>
+              <p class="event-txt text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex cupiditate velit, in laborum architecto dolorem, voluptas repellat minus q</p>
+            </div>
+            <div class="slide-img03 cmm-event-slide col-lg-4 col-md-12">
+              <h3 class="event-ttl text-white">Private Parties</h3>
+              <span class="text-white">$490</span>
+              <p class="event-txt text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex cupiditate velit, in laborum architecto dolorem, voluptas repellat minus q</p>
+            </div>
+          </div>
+        </li>
+        <li class="sec-slide col-lg-12">
+          <div class="img-blk row">
+            <div class="slide-img01 cmm-event-slide col-lg-4">
+              <h3 class="event-ttl text-white">Private Parties</h3>
+              <span class="text-white">$490</span>
+              <p class="event-txt text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex cupiditate velit, in laborum architecto dolorem, voluptas repellat minus q</p>
+            </div>
+            <div class="slide-img02 cmm-event-slide col-lg-4">
+              <h3 class="event-ttl text-white">Private Parties</h3>
+              <span class="text-white">$490</span>
+              <p class="event-txt text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex cupiditate velit, in laborum architecto dolorem, voluptas repellat minus q</p>
+            </div>
+            <div class="slide-img03 cmm-event-slide col-lg-4">
+              <h3 class="event-ttl text-white">Private Parties</h3>
+              <span class="text-white">$490</span>
+              <p class="event-txt text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex cupiditate velit, in laborum architecto dolorem, voluptas repellat minus q</p>
+            </div>
+          </div>
+        </li>
+        <li class="third-slide col-lg-12">
+          <div class="img-blk row">
+            <div class="slide-img01 cmm-event-slide col-4">
+              <h3 class="event-ttl text-white">Private Parties</h3>
+              <span class="text-white">$490</span>
+              <p class="event-txt text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex cupiditate velit, in laborum architecto dolorem, voluptas repellat minus q</p>
+            </div>
+            <div class="slide-img02 cmm-event-slide col-4">
+              <h3 class="event-ttl text-white">Private Parties</h3>
+              <span class="text-white">$490</span>
+              <p class="event-txt text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex cupiditate velit, in laborum architecto dolorem, voluptas repellat minus q</p>
+            </div>
+            <div class="slide-img03 cmm-event-slide col-4">
+              <h3 class="event-ttl text-white">Private Parties</h3>
+              <span class="text-white">$490</span>
+              <p class="event-txt text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex cupiditate velit, in laborum architecto dolorem, voluptas repellat minus q</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div><!-- /.event-sec -->
+
+    <div class="chef-sec" id="sec08">
+      <div class="container">
+        <span class="about-subttl text-uppercase text-center d-block">CHEFS</span>
+        <h3 class="about-mainttl text-uppercase text-center pb-5">Our <span>Proffesional</span> Chefs</h3>
+        <div class="row">
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+            <div class="cmm-chef-card">
+              <img class="card-img-top" src="./img/img_chefs1.jpg" alt="Card image">
+            </div>
+            <div class="card-body">
+              <h4 class="chef-name text-center">Walter White</h4>
+              <p class="chef-position text-center">Master Chef</p>
+              <p class="chef-desc text-center">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+            <div class="cmm-chef-card">
+              <img class="card-img-top" src="./img/img_chefs2.jpg" alt="Card image">
+            </div>
+            <div class="card-body">
+              <h4 class="chef-name text-center">Sarah Jhonson</h4>
+              <p class="chef-position text-center">Patissier</p>
+              <p class="chef-desc text-center">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+            <div class="cmm-chef-card">
+              <img class="card-img-top" src="./img/img_chefs3.jpg" alt="Card image">
+            </div>
+            <div class="card-body">
+              <h4 class="chef-name text-center">William Anderson</h4>
+              <p class="chef-position text-center">Cook</p>
+              <p class="chef-desc text-center">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.chef-sec -->
+
+    <div class="book-sec" id="sec09">
+      <div class="container">
+        <span class="about-subttl text-uppercase text-center d-block">BOOK A TABLE</span>
+        <h3 class="about-mainttl text-uppercase text-center pb-5">Book <span>Your Stay</span> With Us</h3>
+        <div class="book-blk row">
+          <div class="reservation-img col-lg-4">
+            <img src="./img/img_reservation.jpg" alt="reservation">
+          </div>
+          <form class="col-lg-7">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 pt-4">
+                <input type="text" placeholder="Your Name" class="form-control">
+              </div>
+              <div class="col-lg-4 col-md-6 pt-4">
+                <input type="text" placeholder="Your Email" class="form-control">
+              </div>
+              <div class="col-lg-4 col-md-6 pt-4">
+                <input type="text" placeholder="Your Phone" class="form-control">
+              </div>
+              <div class="col-lg-4 col-md-6 pt-4">
+                <input type="date" placeholder="Date" class="form-control">
+              </div>
+              <div class="col-lg-4 col-md-6 pt-4">
+                <input type="time" placeholder="Time" class="form-control">
+              </div>
+              <div class="col-lg-4 col-md-6 pt-4">
+                <input type="number" placeholder="# of people" class="form-control">
+              </div>
+            </div>
+            <div class="py-3">
+              <textarea name="message" id="" cols="20" rows="5" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <div class="book-btn text-center">
+              <a href="#" class="table-btn btn btn-lg bg-danger text-white">Book a Table</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div><!-- /.book-sec -->
+
+    <div class="gallery-sec" id="sec10">
+      <div class="container">
+        <span class="about-subttl text-uppercase text-center d-block">GALLERY</span>
+        <h3 class="about-mainttl text-uppercase text-center pb-5">Check <span>Our Gallery</span></h3>
+        <div class="row slick-list gallery-js">
+          <div class="g-img01">
+            <a href="./img/img_gallery1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="./img/img_gallery1.jpg" class="img-fluid" alt="g-img">
+            </a>
+          </div>
+          <div class="g-img02">
+            <a href="./img/img_gallery2.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="./img/img_gallery2.jpg" class="img-fluid" alt="g-img">
+            </a>
+          </div>
+          <div class="g-img03">
+            <a href="./img/img_gallery3.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="./img/img_gallery3.jpg" class="img-fluid" alt="g-img">
+            </a>
+          </div>
+          <div class="g-img04">
+            <a href="./img/img_gallery4.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="./img/img_gallery4.jpg" class="img-fluid" alt="g-img">
+            </a>
+          </div>
+          <div class="g-img05">
+            <a href="./img/img_gallery5.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="./img/img_gallery5.jpg" class="img-fluid" alt="g-img">
+            </a>
+          </div>
+          <div class="g-img06">
+            <a href="./img/img_gallery6.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="./img/img_gallery6.jpg" class="img-fluid" alt="g-img">
+            </a>
+          </div>
+          <div class="g-img07">
+            <a href="./img/img_gallery7.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="./img/img_gallery7.jpg" class="img-fluid" alt="g-img">
+            </a>
+          </div>
+          <div class="g-img08">
+            <a href="./img/img_gallery8.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="./img/img_gallery8.jpg" class="img-fluid" alt="g-img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.gallery-sec-->
+
+    <div class="contactus-sec" id="sec11">
+      <div class="container">
+        <span class="about-subttl text-uppercase text-center d-block">CONTACT</span>
+        <h3 class="about-mainttl text-uppercase text-center pb-5">Need Help?<span>Contact Us</span></h3>
+        <div class="map pb-3">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.0909430635547!2d96.1704564143453!3d16.772150424672283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ec603dce9349%3A0xaaa95d12ca7d8d30!2sSeattle%20Consulting%20Myanmar%20Co.%2CLtd!5e0!3m2!1smy!2smm!4v1671000160362!5m2!1smy!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="row contact-location">
+          <div class="cmm-location-card col-lg-6 col-md-6 col-sm-12 col-12 mb-3 me-4">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 col-sm-2 col-2">
+                <span class="address-icon rounded-circle bg-danger p-3"><i class="fa-solid fa-map"></i></span>
+              </div>
+              <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                <h3>Our Address</h3>
+                <p class="address-detail">A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div>
+          </div>
+          <div class="cmm-location-card col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 col-sm-2 col-2">
+                <span class="address-icon rounded-circle bg-danger p-3"><i class="fa-regular fa-envelope"></i></span>
+              </div>
+              <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                <h3>Email Us</h3>
+                <p class="address-detail">contact@example.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="cmm-location-card col-lg-6 col-md-6 col-sm-12 col-12 mb-3 me-4">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 col-sm-2 col-2">
+                <span class="address-icon rounded-circle bg-danger p-3"><i class="fa-solid fa-phone"></i></span>
+              </div>
+              <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                <h3>Call Us</h3>
+                <p class="address-detail">+1 5589 55488 55</p>
+              </div>
+            </div>
+          </div>
+          <div class="cmm-location-card col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 col-sm-2 col-2">
+                <span class="address-icon rounded-circle bg-danger p-3"><i class="fa-solid fa-share-nodes"></i></span>
+              </div>
+              <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                <h3>Opening Hours</h3>
+                <p class="address-detail"><span>Mon-Sat:</span> 11AM - 23PM; <span>Sunday:</span> Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.contactus-sec -->
+
+    <div class="footer-sec" id="sec12">
+      <div class="container">
+        <div class="footer-top row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <h4 class="footer-subttl text-white"><i class="fa-solid fa-location-dot"></i>Address</h4>
+            <p>A108 Adam Street<br>
+              New York, NY 535022 - US</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <h4 class="footer-subttl text-white"><i class="fa-solid fa-phone"></i>Reservations</h4>
+            <p>
+              <span>Phone: +1 5589 55488 55</span>
+              <span>Email: info@example.com</span>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <h4 class="footer-subttl text-white"><i class="fa-regular fa-clock"></i>Opening Hours</h4>
+            <p>Mon-Sat: 11AM - 23PM<br>
+              Sunday: Closed</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <h4 class="footer-subttl text-white">Follow Us</h4>
+            <ul class="social-icon-list d-flex">
+              <li class="border border-light border-1 border-opacity-10 rounded-circle"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li class="border border-light border-1 border-opacity-10 rounded-circle"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li class="border border-light border-1 border-opacity-10 rounded-circle"><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+              <li class="border border-light border-1 border-opacity-10 rounded-circle"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-btm pt-5">
+          <p class="text-center">© Copyright Yummy. All Rights Reserved</p>
+          <span class="text-center d-block">Designed by BootstrapMade</span>
+        </div>
+      </div>
+    </div><!-- /.footer-sec -->
+
+  </div>
+
+  <script src="./js/library/jquery-3.6.0.min.js"></script>
+  <script src="./js/library/slick.min.js"></script>
+  <script src="./js/library/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
+  <script src="./js/common.js"></script>
+  <script src="./js/slider.js"></script>
+</body>
+
+</html>

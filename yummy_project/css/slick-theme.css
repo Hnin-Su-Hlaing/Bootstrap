@@ -1,0 +1,148 @@
+.slick-prev,
+.slick-next {
+  display: inline-block;
+  position: absolute;
+  top: 48%;
+  padding: 15px;
+  border: solid #535965;
+  background-color: transparent;
+  color: transparent;
+  font-size: 0;
+  cursor: pointer;
+  border-width: 0 3px 3px 0;
+}
+
+.slick-prev {
+  left: -10px;
+  transform: rotate(135deg);
+}
+
+.slick-next {
+  right: 3px;
+  transform: rotate(-45deg);
+}
+
+.slick-dots {
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+}
+
+.gallery-sec .slick-dots {
+  bottom: -24px;
+}
+
+.slick-dots li {
+  display: inline-block;
+  width: 30px !important;
+  margin-right: 0 !important;
+  cursor: pointer;
+}
+
+.slick-dots li button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: transparent;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button:before {
+  color: #d7d7d7;
+  font-size: 50px;
+  content: "•";
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ce1212;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.gallery-sec .slick-slide {
+  padding: 5px;
+  width: 224px;
+}
+.gallery-sec .slick-slide{
+  border: 5px solid transparent;
+}
+.gallery-sec .slick-current{
+  border: 5px solid #ce1212;
+}
+
+
+@media only screen and (min-width: 640.9px) and (max-width: 1280px) {
+
+  .slick-prev,
+  .slick-next {
+    top: 48%;
+    padding: 1.172vw;
+    border-width: 0 0.234vw 0.234vw 0;
+  }
+
+  .slick-prev {
+    left: -0.781vw;
+  }
+
+  .slick-next {
+    right: 0.234vw;
+  }
+
+  .slick-dots li {
+    margin-right: 0.625vw !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  .slick-prev,
+  .slick-next {
+    top: 48%;
+    padding: 2.344vw;
+    border-width: 0 0.469vw 0.469vw 0;
+  }
+
+  .slick-prev {
+    left: -1.563vw;
+  }
+
+  .slick-next {
+    right: 0.469vw;
+  }
+
+  .slick-dots li {
+    width: 5vw !important;
+    margin-right: 1.25vw !important;
+  }
+
+  .slick-dots li button:before {
+    font-size: 11vw;
+  }
+
+  .single-slider .slick-dots {
+    width: 45%;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .gallery-sec .slick-slide {
+    margin-right: 0px;
+  }
+  .gallery-sec .slick-dots {
+  
+    bottom: -15px;
+
+  }
+}
